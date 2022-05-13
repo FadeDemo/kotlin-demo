@@ -4,7 +4,7 @@ val a: Int = 1
 // type can be inferred
 val b = 1
 // variables in top level must be initialized, and can not be
-// resigned in top level
+// reassigned in top level
 var e = 3
 
 fun main() {
