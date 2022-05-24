@@ -35,6 +35,22 @@ fun iterateOverRange() {
     (1..10).forEach { println(it) }
 }
 
+// lazy property
+
+val p: String by lazy {
+    return@lazy "Hello World"
+}
+
+// extension functions
+// todo
+
+// create singleton
+object Resource {
+    val name = "Name"
+}
+
 fun main() {
     iterateOverRange()
+    println(p)
+    println(Resource.name)
 }
