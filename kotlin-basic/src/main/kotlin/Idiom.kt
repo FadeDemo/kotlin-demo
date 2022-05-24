@@ -22,3 +22,19 @@ fun traverseMap() {
         println("$k -> $v")
     }
 }
+
+// iterate over a range
+fun iterateOverRange() {
+    // do not include 5
+    for (i in 1 until 5) {
+        println(i)
+    }
+    for (i in 5 downTo 1) {
+        println(i)
+    }
+    (1..10).forEach { println(it) }
+}
+
+fun main() {
+    iterateOverRange()
+}
