@@ -7,6 +7,7 @@
     <artifactId>kotlin-demo</artifactId>
     <modules>
         <module>kotlin-basic</module>
+        <module>kotlin-concept</module>
     </modules>
     <groupId>org.fade.demo</groupId>
     <version>1.0-SNAPSHOT</version>
